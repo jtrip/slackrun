@@ -19,7 +19,6 @@ def d6(pool):
     for die in range(pool):
         roll = d(6)
         result.append(roll)
-    print(result)
     return result
 
 

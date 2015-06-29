@@ -1,0 +1,2088 @@
+<character>
+	<createdversion>0.5.167</createdversion>
+	<appversion>0.5.167</appversion>
+	<gameedition>SR5</gameedition>
+	<settings>default.xml</settings>
+	<metatype>Human</metatype>
+	<metatypebp>0</metatypebp>
+	<metavariant />
+	<metatypecategory>Metahuman</metatypecategory>
+	<movement>8/16</movement>
+	<walk />
+	<run />
+	<sprint />
+	<mutantcritterbaseskills>0</mutantcritterbaseskills>
+	<prioritymetatype>E - Human</prioritymetatype>
+	<priorityattributes>A - 24 Attributes</priorityattributes>
+	<priorityspecial>C - Adept, Magician, or Technomancer</priorityspecial>
+	<priorityskills>B - 36 Skills/5 Skill Groups</priorityskills>
+	<priorityresources>D - 150,000¥</priorityresources>
+	<priorityskill1 />
+	<priorityskill2 />
+	<priorityskillgroup />
+	<essenceatspecialstart>6.0</essenceatspecialstart>
+	<name>jtrip</name>
+	<mugshot />
+	<sex />
+	<age />
+	<eyes />
+	<height />
+	<weight />
+	<skin />
+	<hair />
+	<description />
+	<background />
+	<concept />
+	<notes>http://imgur.com/P1gCEIb</notes>
+	<alias />
+	<playername>Justin</playername>
+	<gamenotes />
+	<karma>0</karma>
+	<totalkarma>0</totalkarma>
+	<special>0</special>
+	<totalspecial>1</totalspecial>
+	<totalattributes>24</totalattributes>
+	<contactpoints>6</contactpoints>
+	<contactpointsused>4</contactpointsused>
+	<spelllimit>0</spelllimit>
+	<cfplimit>1</cfplimit>
+	<streetcred>0</streetcred>
+	<notoriety>0</notoriety>
+	<publicawareness>0</publicawareness>
+	<burntstreetcred>0</burntstreetcred>
+	<created>False</created>
+	<maxavail>18</maxavail>
+	<nuyen>150000</nuyen>
+	<startingnuyen>150000</startingnuyen>
+	<adeptwaydiscount>0</adeptwaydiscount>
+	<bp>0</bp>
+	<buildkarma>35</buildkarma>
+	<buildmethod>Priority</buildmethod>
+	<gameplayoption>Prime Runner</gameplayoption>
+	<maxnuyen>25</maxnuyen>
+	<maxkarma>35</maxkarma>
+	<contactmultiplier>6</contactmultiplier>
+	<knowskillpts>18</knowskillpts>
+	<knowpts>18</knowpts>
+	<skillpts>-8</skillpts>
+	<skillptsmax>36</skillptsmax>
+	<skillgrps>0</skillgrps>
+	<skillgrpsmax>5</skillgrpsmax>
+	<nuyenbp>0</nuyenbp>
+	<nuyenmaxbp>10</nuyenmaxbp>
+	<adept>False</adept>
+	<magician>False</magician>
+	<technomancer>True</technomancer>
+	<initiationoverride>False</initiationoverride>
+	<critter>False</critter>
+	<uneducated>False</uneducated>
+	<uncouth>False</uncouth>
+	<schoolofhardknocks>False</schoolofhardknocks>
+	<collegeeducation>False</collegeeducation>
+	<friendsinhighplaces>False</friendsinhighplaces>
+	<jackofalltrades>False</jackofalltrades>
+	<infirm>False</infirm>
+	<blackmarket>False</blackmarket>
+	<excon>False</excon>
+	<trustfund>False</trustfund>
+	<techschool>False</techschool>
+	<restrictedgear>False</restrictedgear>
+	<overclocker>False</overclocker>
+	<mademan>False</mademan>
+	<linguist>False</linguist>
+	<lightningreflexes>False</lightningreflexes>
+	<fame>False</fame>
+	<bornrich>False</bornrich>
+	<erased>False</erased>
+	<attributes>
+		<attribute>
+			<name>BOD</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>AGI</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>4</value>
+			<base>4</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>REA</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>4</value>
+			<base>4</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>STR</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>2</value>
+			<base>2</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>2</totalvalue>
+		</attribute>
+		<attribute>
+			<name>CHA</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>6</value>
+			<base>6</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>6</totalvalue>
+		</attribute>
+		<attribute>
+			<name>INT</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>LOG</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>WIL</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>INI</name>
+			<metatypemin>2</metatypemin>
+			<metatypemax>12</metatypemax>
+			<metatypeaugmax>20</metatypeaugmax>
+			<value>2</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>2</totalvalue>
+		</attribute>
+		<attribute>
+			<name>EDG</name>
+			<metatypemin>2</metatypemin>
+			<metatypemax>7</metatypemax>
+			<metatypeaugmax>7</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>MAG</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>1</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>RES</name>
+			<metatypemin>3</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>ESS</name>
+			<metatypemin>0</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>1</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+	</attributes>
+	<magenabled>False</magenabled>
+	<initiategrade>0</initiategrade>
+	<resenabled>True</resenabled>
+	<submersiongrade>0</submersiongrade>
+	<groupmember>False</groupmember>
+	<groupname />
+	<groupnotes />
+	<totaless>6</totaless>
+	<tradition />
+	<traditiondrain />
+	<traditionname />
+	<spiritcombat />
+	<spiritdetection />
+	<spirithealth />
+	<spiritillusion />
+	<spiritmanipulation />
+	<stream>Default</stream>
+	<physicalcmfilled>0</physicalcmfilled>
+	<stuncmfilled>0</stuncmfilled>
+	<skillgroups>
+		<skillgroup>
+			<name>Acting</name>
+			<rating>1</rating>
+			<base>1</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Athletics</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Biotech</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Close Combat</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Conjuring</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Cracking</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Electronics</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Enchanting</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Engineering</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Firearms</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Influence</name>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Outdoors</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Sorcery</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Stealth</name>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+		<skillgroup>
+			<name>Tasking</name>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<broken>False</broken>
+		</skillgroup>
+	</skillgroups>
+	<skills>
+		<skill>
+			<name>Aeronautics Mechanic</name>
+			<skillgroup>Engineering</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Alchemy</name>
+			<skillgroup>Enchanting</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Animal Handling</name>
+			<skillgroup>Animal Husbandry</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>5</totalvalue>
+		</skill>
+		<skill>
+			<name>Arcana</name>
+			<skillgroup />
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>4</rating>
+			<base>4</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Archery</name>
+			<skillgroup />
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>130</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Armorer</name>
+			<skillgroup />
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Artificing</name>
+			<skillgroup>Enchanting</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Artisan</name>
+			<skillgroup />
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>INT</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Assensing</name>
+			<skillgroup />
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>INT</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Astral Combat</name>
+			<skillgroup />
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>WIL</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Automatics</name>
+			<skillgroup>Firearms</skillgroup>
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>130</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Automotive Mechanic</name>
+			<skillgroup>Engineering</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>6</rating>
+			<base>6</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>9</totalvalue>
+		</skill>
+		<skill>
+			<name>Banishing</name>
+			<skillgroup>Conjuring</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Binding</name>
+			<skillgroup>Conjuring</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Biotechnology</name>
+			<skillgroup>Biotech</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Blades</name>
+			<skillgroup>Close Combat</skillgroup>
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>130</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Chemistry</name>
+			<skillgroup />
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Clubs</name>
+			<skillgroup>Close Combat</skillgroup>
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>131</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Compiling</name>
+			<skillgroup>Tasking</skillgroup>
+			<skillcategory>Resonance Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>RES</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Computer</name>
+			<skillgroup>Electronics</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Con</name>
+			<skillgroup>Acting</skillgroup>
+			<skillcategory>Social Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>1</rating>
+			<base>1</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>138</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Counterspelling</name>
+			<skillgroup>Sorcery</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Cybercombat</name>
+			<skillgroup>Cracking</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>3</rating>
+			<base>3</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>6</totalvalue>
+		</skill>
+		<skill>
+			<name>Cybertechnology</name>
+			<skillgroup>Biotech</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>4</rating>
+			<base>4</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Decompiling</name>
+			<skillgroup>Tasking</skillgroup>
+			<skillcategory>Resonance Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>RES</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Demolitions</name>
+			<skillgroup />
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Disenchanting</name>
+			<skillgroup>Enchanting</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Disguise</name>
+			<skillgroup>Stealth</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>INT</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>5</totalvalue>
+		</skill>
+		<skill>
+			<name>Diving</name>
+			<skillgroup />
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>BOD</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Electronic Warfare</name>
+			<skillgroup>Cracking</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>3</rating>
+			<base>3</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>6</totalvalue>
+		</skill>
+		<skill>
+			<name>Escape Artist</name>
+			<skillgroup />
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Etiquette</name>
+			<skillgroup>Influence</skillgroup>
+			<skillcategory>Social Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>138</page>
+			<skillspecializations />
+			<totalvalue>8</totalvalue>
+		</skill>
+		<skill>
+			<name>First Aid</name>
+			<skillgroup>Biotech</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Forgery</name>
+			<skillgroup />
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>144</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Free-Fall</name>
+			<skillgroup />
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>BOD</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Gunnery</name>
+			<skillgroup />
+			<skillcategory>Vehicle Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>146</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Gymnastics</name>
+			<skillgroup>Athletics</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Hacking</name>
+			<skillgroup>Cracking</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>6</rating>
+			<base>6</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>9</totalvalue>
+		</skill>
+		<skill>
+			<name>Hardware</name>
+			<skillgroup>Electronics</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>5</rating>
+			<base>5</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>8</totalvalue>
+		</skill>
+		<skill>
+			<name>Heavy Weapons</name>
+			<skillgroup />
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>132</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Impersonation</name>
+			<skillgroup>Acting</skillgroup>
+			<skillcategory>Social Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>1</rating>
+			<base>1</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>138</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Industrial Mechanic</name>
+			<skillgroup>Engineering</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>6</rating>
+			<base>6</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>9</totalvalue>
+		</skill>
+		<skill>
+			<name>Instruction</name>
+			<skillgroup />
+			<skillcategory>Social Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>138</page>
+			<skillspecializations />
+			<totalvalue>5</totalvalue>
+		</skill>
+		<skill>
+			<name>Intimidation</name>
+			<skillgroup />
+			<skillcategory>Social Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>139</page>
+			<skillspecializations />
+			<totalvalue>5</totalvalue>
+		</skill>
+		<skill>
+			<name>Leadership</name>
+			<skillgroup>Influence</skillgroup>
+			<skillcategory>Social Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>139</page>
+			<skillspecializations />
+			<totalvalue>8</totalvalue>
+		</skill>
+		<skill>
+			<name>Locksmith</name>
+			<skillgroup />
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Longarms</name>
+			<skillgroup>Firearms</skillgroup>
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>132</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Medicine</name>
+			<skillgroup>Biotech</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Nautical Mechanic</name>
+			<skillgroup>Engineering</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Navigation</name>
+			<skillgroup>Outdoors</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>INT</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Negotiation</name>
+			<skillgroup>Influence</skillgroup>
+			<skillcategory>Social Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>139</page>
+			<skillspecializations />
+			<totalvalue>8</totalvalue>
+		</skill>
+		<skill>
+			<name>Palming</name>
+			<skillgroup>Stealth</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>True</grouped>
+			<default>False</default>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>6</totalvalue>
+		</skill>
+		<skill>
+			<name>Perception</name>
+			<skillgroup />
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>INT</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Performance</name>
+			<skillgroup>Acting</skillgroup>
+			<skillcategory>Social Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>1</rating>
+			<base>1</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>CHA</attribute>
+			<source>SR5</source>
+			<page>139</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Pilot Aerospace</name>
+			<skillgroup />
+			<skillcategory>Vehicle Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>REA</attribute>
+			<source>SR5</source>
+			<page>146</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Pilot Aircraft</name>
+			<skillgroup />
+			<skillcategory>Vehicle Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>REA</attribute>
+			<source>SR5</source>
+			<page>147</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Pilot Ground Craft</name>
+			<skillgroup />
+			<skillcategory>Vehicle Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>3</rating>
+			<base>3</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>REA</attribute>
+			<source>SR5</source>
+			<page>147</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Pilot Walker</name>
+			<skillgroup />
+			<skillcategory>Vehicle Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>REA</attribute>
+			<source>SR5</source>
+			<page>147</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Pilot Watercraft</name>
+			<skillgroup />
+			<skillcategory>Vehicle Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>REA</attribute>
+			<source>SR5</source>
+			<page>147</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Pistols</name>
+			<skillgroup>Firearms</skillgroup>
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>132</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Registering</name>
+			<skillgroup>Tasking</skillgroup>
+			<skillcategory>Resonance Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>RES</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Ritual Spellcasting</name>
+			<skillgroup>Sorcery</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>142</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Running</name>
+			<skillgroup>Athletics</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>STR</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>1</totalvalue>
+		</skill>
+		<skill>
+			<name>Sneaking</name>
+			<skillgroup>Stealth</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>True</grouped>
+			<default>True</default>
+			<rating>2</rating>
+			<base>2</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>6</totalvalue>
+		</skill>
+		<skill>
+			<name>Software</name>
+			<skillgroup>Electronics</skillgroup>
+			<skillcategory>Technical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>4</rating>
+			<base>4</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>LOG</attribute>
+			<source>SR5</source>
+			<page>145</page>
+			<skillspecializations />
+			<totalvalue>7</totalvalue>
+		</skill>
+		<skill>
+			<name>Spellcasting</name>
+			<skillgroup>Sorcery</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Summoning</name>
+			<skillgroup>Conjuring</skillgroup>
+			<skillcategory>Magical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>False</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>MAG</attribute>
+			<source>SR5</source>
+			<page>143</page>
+			<skillspecializations />
+			<totalvalue>0</totalvalue>
+		</skill>
+		<skill>
+			<name>Survival</name>
+			<skillgroup>Outdoors</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>WIL</attribute>
+			<source>SR5</source>
+			<page>133</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Swimming</name>
+			<skillgroup>Athletics</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>STR</attribute>
+			<source>SR5</source>
+			<page>134</page>
+			<skillspecializations />
+			<totalvalue>1</totalvalue>
+		</skill>
+		<skill>
+			<name>Throwing Weapons</name>
+			<skillgroup />
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>132</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+		<skill>
+			<name>Tracking</name>
+			<skillgroup>Outdoors</skillgroup>
+			<skillcategory>Physical Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>INT</attribute>
+			<source>SR5</source>
+			<page>134</page>
+			<skillspecializations />
+			<totalvalue>2</totalvalue>
+		</skill>
+		<skill>
+			<name>Unarmed Combat</name>
+			<skillgroup>Close Combat</skillgroup>
+			<skillcategory>Combat Active</skillcategory>
+			<grouped>False</grouped>
+			<default>True</default>
+			<rating>0</rating>
+			<base>0</base>
+			<karma>0</karma>
+			<freelevels>0</freelevels>
+			<ratingmax>6</ratingmax>
+			<knowledge>False</knowledge>
+			<exotic>False</exotic>
+			<spec />
+			<allowdelete>False</allowdelete>
+			<buywithkarma>False</buywithkarma>
+			<attribute>AGI</attribute>
+			<source>SR5</source>
+			<page>132</page>
+			<skillspecializations />
+			<totalvalue>3</totalvalue>
+		</skill>
+	</skills>
+	<contacts>
+		<contact>
+			<name />
+			<role />
+			<location />
+			<connection>1</connection>
+			<loyalty>1</loyalty>
+			<type>Contact</type>
+			<file />
+			<relative />
+			<notes />
+			<groupname />
+			<colour>0</colour>
+			<free>False</free>
+			<group>False</group>
+			<mademan>False</mademan>
+		</contact>
+	</contacts>
+	<spells />
+	<foci />
+	<stackedfoci />
+	<powers />
+	<spirits />
+	<complexforms />
+	<martialarts />
+	<martialartmaneuvers />
+	<limitmodifiers />
+	<armors />
+	<weapons>
+		<weapon>
+			<guid>fcf4a021-2587-4aae-89b3-271b6b6680be</guid>
+			<name>Unarmed Attack</name>
+			<category>Unarmed</category>
+			<type>Melee</type>
+			<spec />
+			<spec2 />
+			<reach>0</reach>
+			<damage>(STR)S</damage>
+			<ap>-</ap>
+			<mode>0</mode>
+			<rc>0</rc>
+			<ammo>0</ammo>
+			<ammocategory />
+			<ammoremaining>0</ammoremaining>
+			<ammoremaining2>0</ammoremaining2>
+			<ammoremaining3>0</ammoremaining3>
+			<ammoremaining4>0</ammoremaining4>
+			<ammoloaded>00000000-0000-0000-0000-000000000000</ammoloaded>
+			<ammoloaded2>00000000-0000-0000-0000-000000000000</ammoloaded2>
+			<ammoloaded3>00000000-0000-0000-0000-000000000000</ammoloaded3>
+			<ammoloaded4>00000000-0000-0000-0000-000000000000</ammoloaded4>
+			<conceal>0</conceal>
+			<avail>0</avail>
+			<cost>0</cost>
+			<useskill />
+			<range />
+			<rangemultiply>1</rangemultiply>
+			<fullburst>10</fullburst>
+			<suppressive>20</suppressive>
+			<source>SR5</source>
+			<page>132</page>
+			<weaponname />
+			<included>False</included>
+			<installed>True</installed>
+			<requireammo>True</requireammo>
+			<accuracy>Physical</accuracy>
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</weapon>
+	</weapons>
+	<cyberwares />
+	<qualities>
+		<quality>
+			<guid>99b841f9-b6d7-483d-ad41-d86e894cdfaa</guid>
+			<name>Technomancer</name>
+			<extra />
+			<bp>15</bp>
+			<contributetolimit>False</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Positive</qualitytype>
+			<qualitysource>Metatype</qualitysource>
+			<source>SR5</source>
+			<page>69</page>
+			<bonus />
+			<notes />
+		</quality>
+	</qualities>
+	<lifestyles />
+	<gears />
+	<vehicles />
+	<metamagics />
+	<arts />
+	<enhancements />
+	<critterpowers />
+	<initiationgrades />
+	<improvements />
+	<expenses />
+	<locations />
+	<armorbundles />
+	<weaponlocations />
+	<improvementgroups />
+	<calendar />
+</character>

@@ -2,7 +2,7 @@ __actionname__ = 'bats eyelashes :lips:'
 
 from sys import argv
 
-from character import Character, get_data
+from Character import Character, get_data
 from dice import d6, check
 import private
 import slacker
@@ -10,7 +10,7 @@ import slacker
 
 def main(argv):
 
-    slack = slacker.Slacker(private.i3)
+    slack = slacker.Slacker(private.sixthWorld)
 
     charactername = argv[0]
     difficulty = argv[1]
@@ -27,17 +27,17 @@ def main(argv):
     for key, value in modifiers.items():
         mod_bonus += value
 
-    character = Character(get_data(charactername))
+    character = get_data(charactername)
 
-    die_pool = character.Charisma + character.Seduction + mod_bonus
+    die_pool = character['Charisma'] + character['Seduction'] + mod_bonus
 
     # create good looking description
     description = ''
-    description += ('_' + character.Name + ' ' + __actionname__ + '_\n')
+    description += ('_' + character['Name'] + ' ' + __actionname__ + '_\n')
 
     description += (
-        "Charisma(" + str(character.Charisma) + ")  + " +
-        "Seduction(" + str(character.Seduction) + ") + ")
+        "Charisma(" + str(character['Charisma']) + ")  + " +
+        "Seduction(" + str(character['Seduction']) + ") + ")
 
     for i, key in enumerate(modifiers):
         if i == last:
@@ -47,18 +47,15 @@ def main(argv):
         description += (
             str(key) + "(" + str(modifiers[key]) + ") " + operator)
 
-    description += (
-         "*" + str(die_pool) + "d6" + "*" + " @ difficulty(" + str(difficulty) + ')\n'
-    )
-    print(character.Name)
-
+    description += ("*" + str(die_pool) + "d6*")
+    
     # perform the roll
     roll = d6(die_pool)
 
     # send results to slack
     output = check(difficulty, roll)
-    slack.chat.post_message(channelname, description + '\n' + str(roll) + "\n" + output, username=character.Name, icon_url=character.imageURL)
+    slack.chat.post_message(channelname, description + '\n' + str(roll) + "\n" + output, username=character['Name'], icon_url=character['imageURL'])
 
 
 if __name__ == '__main__':
-    main(['jtrip', 5, '#jtrip_home'])
+    main(['jtrip', 5, '#scratch'])
