@@ -34,3 +34,9 @@ def get_data(character):
 
     return data
 
+##
+# Inherent Limits Add appropriate attribute(s); calculate as listed below —
+# Mental [(Logic x 2) + Intuition + Willpower] / 3 (round up) —
+# Physical [(Strength x 2) + Body + Reaction] / 3 (round up) —
+# Social [(Charisma x 2) + Willpower + Essence] / 3 (round up)
+##
