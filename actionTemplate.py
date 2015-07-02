@@ -1,63 +1,62 @@
-# this is the actionTemplate, copy and fill in data
+# this is the actionTemplate, rename and fill in data
 # please use a unique file name without spaces
 
 from sys import argv
-import runnerAction
+import Action
 
 
 def main():
 
-    ##
-    # required
-    ##
+    action_info = {
+        
+        ##
+        # required
+        ##
+        
+        'character_name'        : 'Mr T',
+        'action_name'           : 'pities the fool :godmode:',
 
-    character_name = 'Mr T.'
-    action_name = 'pities the fool'
+        'attribute'             : 'INT',
+        'skill'                 : 'pitty',
+        'skill_group'           : 'social skills',
 
-    attribute = 'INT'
-    skill = ''
-    skill_group = ''
+        'modifiers'             : {
+                                    'gold chains' : 3,
+                                    'getting old' : -1,
+                                },
 
-    modifiers = {
-        'gold chains': 3
+        ##
+        # optional flavor text
+        ##
+
+        'glitch_text'           : '... but who is the real fool?',
+        'fail_text'             : '',
+        'success_text'          : '',
+        'great_success_text'    : '... and it is highly effective',
+    
     }
+    
+    # Do not edit below this line
+    
+    
+    # Set the threshold for the number of successes required (set with first argument)
+    
+    if len(argv) > 1:
+        action_info['threshold'] = str(argv[1])
+    else:
+        action_info['threshold'] = 0
 
-    ##
-    # optional flavor text
-    ##
+    
+    return action_info
 
-    glitch_text = '... but who is the real fool?'
-    fail_text = ''
-    success_text = ''
-    great_success_text = '... and it is highly effective'
-
-    ##
-    # Do Not Edit Below This !!!
-    ##
-
-    threshold = argv[1]
-
-    character_action = (character_name,
-                        action_name,
-                        attribute,
-                        skill,
-                        skill_group,
-                        modifiers,
-                        threshold,
-                        glitch_text,
-                        fail_text,
-                        success_text,
-                        great_success_text)
-
-    return character_action
 
 
 if __name__ == '__main__':
 
     try:
-        runnerAction(main())
+        Action.runner(main())
     except:
-        print('ERROR - runnerAction failed')
+        print('ERROR - Action.runner() failed')
 
 ## 
 # BELOW IS FOR REFERENCE ONLY
@@ -71,3 +70,5 @@ if __name__ == '__main__':
 #
 # LIST OF SKILL GROUPS
 #
+##
+
