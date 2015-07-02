@@ -1,2 +1,3 @@
 # API Keys etc.
 private.py
+*.pyc
