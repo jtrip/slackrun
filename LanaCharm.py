@@ -13,11 +13,11 @@ def main():
         # required
         ##
         
-        'character_name'        : 'Mr. T',
-        'action_name'           : 'pitties the fool',
+        'character_name'        : 'Lana',
+        'action_name'           : 'bats eyelashes :lips:',
 
         'attribute'             : 'Charisma',
-        'skill'                 : '',
+        'skill'                 : 'Seduction',
         'skill_group'           : '',
 
         'modifiers'             : {
@@ -29,10 +29,10 @@ def main():
         # optional flavor text
         ##
 
-        'glitch_text'           : '... but who is the real fool?',
+        'glitch_text'           : '',
         'fail_text'             : '',
         'success_text'          : '',
-        'great_success_text'    : '... and it is highly effective',
+        'great_success_text'    : '',
     
     }
     
