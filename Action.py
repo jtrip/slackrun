@@ -55,7 +55,8 @@ def runner(action_info):
     
     # send results to slack
     output = check(5, roll)
-    
-    slack.chat.post_message('#scratch', description + '\n' + str(roll) + "\n" + output, username=character['Name'], icon_url=character['imageURL'])
 
-
+    slack.chat.post_message('#scratch',
+                            description + '\n' + str(roll) + "\n" + output,
+                            username=character['Name'],
+                            icon_url=character['imageURL'])
