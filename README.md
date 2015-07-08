@@ -33,13 +33,16 @@ which is currently being done by having main return the action_info:
 I might want to update this to combine multiple related actions like different uses of the same item... maybe.  
 
 ## ToDo
+- implement flavor text in action_info
+
 - Chatty: 
  - send messages live
  - NPCs actions
-- Action Library
+
 - Web Interface
  - User Management
  - Action Display
  - Action creation
     
+- Build Action Library
     
