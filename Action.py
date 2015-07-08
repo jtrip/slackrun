@@ -10,7 +10,7 @@ def runner(action_info):
 
     slack = slacker.Slacker(private.sixthWorld)
 
-    # last is used in buiding the description, to use = at the end instead of +
+    # last is used in buiding the description, to use = at the end not +
     last = len(action_info['modifiers']) - 1 
     
     # caluclate total modifier bonus
