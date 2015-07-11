@@ -39,8 +39,7 @@ def main():
     # Do not edit below this line
     
     
-    # Set the threshold for the number of successes required (set with first argument)
-    
+    # Set the threshold for the number of successes (set with first argument)
     if len(argv) > 1:
         action_info['threshold'] = str(argv[1])
     else:
