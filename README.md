@@ -36,16 +36,33 @@ which is currently being done by having main return the action_info:
 I might want to update this to combine multiple related actions like different uses of the same item... maybe.  
 
 ## ToDo
+- ~~continue to improve ToDo list~~
 - implement flavor text in action_info
 
+- Web interface
+    - initial simple action list test
+    - user management
+    - character management
+    - action creation
+
+- BeagleBone interfac
+    - GPIO
+    - DotStar RGB LEDs
+
+- Slack listener
+    - interpret messages to call actions
+    - interpret messages to generic rolls/checks
+
 - Chatty: 
- - send messages live
- - NPCs actions
+    - send messages live
+    - NPCs actions
+    - npc avatar image library    
 
 - Web Interface
- - User Management
- - Action Display
- - Action creation
+    - User Management
+    - Action Display
+    - Action creation
     
 - Build Action Library
     
+- _combat stacker_
